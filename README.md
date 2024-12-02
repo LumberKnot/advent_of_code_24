@@ -5,7 +5,7 @@ My attempt at solving advent of code in c.
 
 | Day|       |Day||
 | -- | ----- | - | - |
-| 01 | :star: :star: |
+| 01 | :star: :star: | 02 | :star: :star: |
 
 ## Days
 ### Day 1
@@ -16,3 +16,5 @@ left.sorted
     .map((l,r) => Math.abs(l-r))
     .sum
 ```
+### Day 2
+Once again noticed how easy it would be to do in scala. The second star was solved very unelegantly, with a complexity of O(m*n^2^) with m records and n levels. In essense I performed the same safe check as in the first star for the whole list and every sublist missing exactly one element.
