@@ -3,9 +3,10 @@ My attempt at solving advent of code in c.
 
 ## Progress
 
-| Day|       |Day|| Day ||
-| -- | ----- | - | - | - | - |
+
 | 01 | :star: :star: | 02 | :star: :star: | 03 | :star: :star: |
+| -- | ----- | - | - | - | - |
+| **04** | :star: :star: |||||
 
 ## Days
 ### Day 1
@@ -27,3 +28,6 @@ The first star was solved almost entirely by this command
 
 The second required a more complicated command to filter out everythin in between do:s and don't:s
 > grep -P -o "mul\\(\d+,\d+\\)|do\\(\)|don't\(\)" input | awk 'BEGIN {in_block=1} /do\(\)/ {in_block=1} /don/ {in_block=0} in_block' | grep 'mul' > input_two_star
+
+### Day 4
+Nothing interersting really.
