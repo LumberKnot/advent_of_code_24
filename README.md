@@ -6,7 +6,7 @@ My attempt at solving advent of code in c.
 
 | 01 | :star: :star: | 02 | :star: :star: | 03 | :star: :star: |
 | -- | ----- | - | - | - | - |
-| **04** | :star: :star: |**05**||**06**| :star: :star:|
+| **04** | :star: :star: |**05**| :star: :star: |**06**| :star: :star:|
 
 ## Days
 ### Day 1
@@ -34,3 +34,6 @@ Nothing interersting really.
 
 ### Day 6
 Solved this before day 5 because it seemed more interersting. Solving both stars revolved around storing information of the matrix that represented the map. I created a bitmask (0b1000, 0b0100 ...) that represenented the directions. If a square had 0 you added one  to the total number of steps and if it already had the bitmask that you were going to write you had found a loop.
+
+### Day 5
+Took a long time to get the second star as I faultily asumed the problem would have been formulated in a way that every update only had exactly one working solution so I tried to do a version of iterative bubble sorting that ended in infinite loops
