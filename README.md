@@ -7,6 +7,7 @@ My attempt at solving advent of code in c.
 | 01 | :star: :star: | 02 | :star: :star: | 03 | :star: :star: |
 | -- | ----- | - | - | - | - |
 | **04** | :star: :star: |**05**| :star: :star: |**06**| :star: :star:|
+| **07** | :star: :star: |||||
 
 ## Days
 ### Day 1
@@ -37,3 +38,6 @@ Solved this before day 5 because it seemed more interersting. Solving both stars
 
 ### Day 5
 Took a long time to get the second star as I faultily asumed the problem would have been formulated in a way that every update only had exactly one working solution so I tried to do a version of iterative bubble sorting that ended in infinite loops
+
+### Day 7
+Not super interesting. Testing every calculation by looping over all the posible combinations of + * ||. 
