@@ -7,7 +7,7 @@ My attempt at solving advent of code in c.
 | 01 | :star: :star: | 02 | :star: :star: | 03 | :star: :star: |
 | -- | ----- | - | - | - | - |
 | **04** | :star: :star: |**05**| :star: :star: |**06**| :star: :star:|
-| **07** | :star: :star: |||||
+| **07** | :star: :star: | **08** | :star: :star: |||
 
 ## Days
 ### Day 1
@@ -41,3 +41,6 @@ Took a long time to get the second star as I faultily asumed the problem would h
 
 ### Day 7
 Not super interesting. Testing every calculation by looping over all the posible combinations of + * ||. 
+
+### Day 8
+Two nice equations appear in this problem. To solve the first star you need to realize that antinodes will always apear att A~1~ - (A~2~ - A~1~) and A~2~ + (A~2~ - A~1~) if A~i~ is antena number i in the pair. For the second start it is vital to remember to divide with the GCD before creating the line
