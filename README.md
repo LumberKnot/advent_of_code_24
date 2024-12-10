@@ -7,7 +7,7 @@ My attempt at solving advent of code in c.
 | 01 | :star: :star: | 02 | :star: :star: | 03 | :star: :star: |
 | -- | ----- | - | - | - | - |
 | **04** | :star: :star: | **05** | :star: :star: | **06** | :star: :star:|
-| **07** | :star: :star: | **08** | :star: :star: | **09** ||
+| **07** | :star: :star: | **08** | :star: :star: | **09** | :star: :star: |
 | **10** | :star: :star: ||||
 
 ## Days
@@ -48,3 +48,8 @@ Two nice equations appear in this problem. To solve the first star you need to r
 
 ### Day 10
 Did this day before 9 because I was very early on it. I solved this using recursion and actually felt that the first star was harder than the second. The first star required you to know if you had visited an endpoint before while the first did not care.
+
+### Day 9
+First star was solved with two pointers that traversed the memory from either side. When the leading pointer was on an empty slot the trailing pointer moved until it found an non empty slot that was then multiplied with the index it would end up on.
+
+Second star was solved with a second representation of the memory that only tracked the size of each empty block.
