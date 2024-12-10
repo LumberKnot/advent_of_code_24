@@ -6,8 +6,9 @@ My attempt at solving advent of code in c.
 
 | 01 | :star: :star: | 02 | :star: :star: | 03 | :star: :star: |
 | -- | ----- | - | - | - | - |
-| **04** | :star: :star: |**05**| :star: :star: |**06**| :star: :star:|
-| **07** | :star: :star: | **08** | :star: :star: |||
+| **04** | :star: :star: | **05** | :star: :star: | **06** | :star: :star:|
+| **07** | :star: :star: | **08** | :star: :star: | **09** ||
+| **10** | :star: :star: ||||
 
 ## Days
 ### Day 1
@@ -44,3 +45,6 @@ Not super interesting. Testing every calculation by looping over all the posible
 
 ### Day 8
 Two nice equations appear in this problem. To solve the first star you need to realize that antinodes will always apear att A~1~ - (A~2~ - A~1~) and A~2~ + (A~2~ - A~1~) if A~i~ is antena number i in the pair. For the second start it is vital to remember to divide with the GCD before creating the line
+
+### Day 10
+Did this day before 9 because I was very early on it. I solved this using recursion and actually felt that the first star was harder than the second. The first star required you to know if you had visited an endpoint before while the first did not care.
