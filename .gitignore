@@ -4,3 +4,7 @@
 
 #Makefiles
 */makefile
+
+# Debug files
+*/.vscode/
+*/.gdbinit

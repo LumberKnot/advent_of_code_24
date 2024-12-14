@@ -8,8 +8,8 @@ My attempt at solving advent of code in c.
 | -- | ----- | - | - | - | - |
 | **04** | :star: :star: | **05** | :star: :star: | **06** | :star: :star:|
 | **07** | :star: :star: | **08** | :star: :star: | **09** | :star: :star: |
-| **10** | :star: :star: ||||
-|||**14**| :star: :star: |||
+| **10** | :star: :star: |||||
+ **13** | :star: :star: |**14**| :star: :star: |||
 
 ## Days
 ### Day 1
@@ -57,3 +57,6 @@ Second star was solved with a second representation of the memory that only trac
 
 ### Day 14
 First star was simply stepping trough 100 steps. I found it was easiets not to make a grid but let each robot maintain all of its own information. For the second star I printed every step to a file and searched through it with ctl f.
+
+### Day 13
+First star could easily be solved with brute force. The second star had two kinks. All claw machines where the slope for A and B were diferent could be solved with Cramers rule. If they had the same slope and the price laid on that line it was calculated with brute force but starting with the max number of the longest claw change of A and 3*B 
