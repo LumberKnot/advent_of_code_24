@@ -53,3 +53,6 @@ Did this day before 9 because I was very early on it. I solved this using recurs
 First star was solved with two pointers that traversed the memory from either side. When the leading pointer was on an empty slot the trailing pointer moved until it found an non empty slot that was then multiplied with the index it would end up on.
 
 Second star was solved with a second representation of the memory that only tracked the size of each empty block.
+
+### Day 14
+First star was simply stepping trough 100 steps. I found it was easiets not to make a grid but let each robot maintain all of its own information. For the second star I printed every step to a file and searched through it with ctl f.
