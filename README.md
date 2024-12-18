@@ -4,12 +4,12 @@ My attempt at solving advent of code in c.
 ## Progress
 
 
-| 01 | :star: :star: | 02 | :star: :star: | 03 | :star: :star: |
-| -- | ----- | - | - | - | - |
-| **04** | :star: :star: | **05** | :star: :star: | **06** | :star: :star:|
-| **07** | :star: :star: | **08** | :star: :star: | **09** | :star: :star: |
-| **10** | :star: :star: |||||
- **13** | :star: :star: |**14**| :star: :star: |||
+| **01** | :star: :star: | **02** | :star: :star: | **03** | :star: :star: | **04** | :star: :star: |
+| ------ | ------------- | ------ | ------------- | ------ | ------------- | ------ | ------------- |
+| **05** | :star: :star: | **06** | :star: :star: | **07** | :star: :star: | **08** | :star: :star: |
+| **09** | :star: :star: | **10** | :star: :star: | **11** | :star:        | **12** | :star:        |              
+| **13** | :star: :star: | **14** | :star: :star: | **15** | :star:        | **16** | :star:        |
+| **17** |               | **18** | :star: :star:
 
 ## Days
 ### Day 1
@@ -60,3 +60,6 @@ First star was simply stepping trough 100 steps. I found it was easiets not to m
 
 ### Day 13
 First star could easily be solved with brute force. The second star had two kinks. All claw machines where the slope for A and B were diferent could be solved with Cramers rule. If they had the same slope and the price laid on that line it was calculated with brute force but starting with the max number of the longest claw change of A and 3*B 
+
+### Day 18
+First star was solved with a simple bfs search and the second star was done by applying all corruptions and then removing them backwards one by one untill a solution was posible.
