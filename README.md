@@ -9,7 +9,8 @@ My attempt at solving advent of code in c.
 | **05** | :star: :star: | **06** | :star: :star: | **07** | :star: :star: | **08** | :star: :star: |
 | **09** | :star: :star: | **10** | :star: :star: | **11** | :star:        | **12** | :star:        |              
 | **13** | :star: :star: | **14** | :star: :star: | **15** | :star:        | **16** | :star:        |
-| **17** |               | **18** | :star: :star:
+| **17** | :star: :star: | **18** | :star: :star: | **19** |               | **20** | :star:        |
+| **21** |               | **22** | :star: :star: |
 
 ## Days
 ### Day 1
@@ -63,3 +64,6 @@ First star could easily be solved with brute force. The second star had two kink
 
 ### Day 18
 First star was solved with a simple bfs search and the second star was done by applying all corruptions and then removing them backwards one by one untill a solution was posible.
+
+### Day 22
+First star was just a matter of doing, second as usual was far more fun. I solved it with two four dimensional *matrices*. Both were 19\*19\*19\*19 as that is the number of posible differences that exist between two single digit numbers and represent a sequence. First was a global exchange rate: number of bananas for a given sequence and other was local for each monkey that simply keept track if the sequence had already been visited (only first visit was valuable).
