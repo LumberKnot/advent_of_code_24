@@ -10,7 +10,7 @@ My attempt at solving advent of code in c.
 | **09** | :star: :star: | **10** | :star: :star: | **11** | :star:        | **12** | :star:        |              
 | **13** | :star: :star: | **14** | :star: :star: | **15** | :star:        | **16** | :star:        |
 | **17** | :star: :star: | **18** | :star: :star: | **19** |               | **20** | :star:        |
-| **21** |               | **22** | :star: :star: |
+| **21** |               | **22** | :star: :star: | **23** | :star: :star: |
 
 ## Days
 ### Day 1
@@ -67,3 +67,6 @@ First star was solved with a simple bfs search and the second star was done by a
 
 ### Day 22
 First star was just a matter of doing, second as usual was far more fun. I solved it with two four dimensional *matrices*. Both were 19\*19\*19\*19 as that is the number of posible differences that exist between two single digit numbers and represent a sequence. First was a global exchange rate: number of bananas for a given sequence and other was local for each monkey that simply keept track if the sequence had already been visited (only first visit was valuable).
+
+### Day 23
+First star was made by first creating all 3 pairs in growing node order and then filter out all that start with *t* to avoid duplicates. Second was solved recursevly also following order
