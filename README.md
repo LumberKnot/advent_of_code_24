@@ -4,13 +4,12 @@ My attempt at solving advent of code in c.
 ## Progress
 
 
-| **01** | :star: :star: | **02** | :star: :star: | **03** | :star: :star: | **04** | :star: :star: |
-| ------ | ------------- | ------ | ------------- | ------ | ------------- | ------ | ------------- |
-| **05** | :star: :star: | **06** | :star: :star: | **07** | :star: :star: | **08** | :star: :star: |
-| **09** | :star: :star: | **10** | :star: :star: | **11** | :star:        | **12** | :star:        |              
-| **13** | :star: :star: | **14** | :star: :star: | **15** | :star:        | **16** | :star:        |
-| **17** | :star: :star: | **18** | :star: :star: | **19** |               | **20** | :star:        |
-| **21** |               | **22** | :star: :star: | **23** | :star: :star: |
+| **01** | :star: :star: | **02** | :star: :star: | **03** | :star: :star: | **04** | :star: :star: | **05** | :star: :star: |
+| ------ | ------------- | ------ | ------------- | ------ | ------------- | ------ | ------------- | ------ | ------------- |
+| **06** | :star: :star: | **07** | :star: :star: | **08** | :star: :star: | **09** | :star: :star: | **10** | :star: :star: |
+| **11** | :star: :star: | **12** | :star:        | **13** | :star: :star: | **14** | :star: :star: | **15** | :star:        |
+| **16** | :star:        | **17** | :star: :star: | **18** | :star: :star: | **19** |               | **20** | :star:        |
+| **21** |               | **22** | :star: :star: | **23** | :star: :star: | **24** |               | **25** | :star:        |
 
 ## Days
 ### Day 1
@@ -70,3 +69,6 @@ First star was just a matter of doing, second as usual was far more fun. I solve
 
 ### Day 23
 First star was made by first creating all 3 pairs in growing node order and then filter out all that start with *t* to avoid duplicates. Second was solved recursevly also following order
+
+### Day 11
+Solved best using a table of stones so that every stone of the same value can be calcultated simultaneusly.
